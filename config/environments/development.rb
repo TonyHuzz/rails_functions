@@ -74,8 +74,8 @@ Rails.application.configure do
     port: "587",
     domain: "localhost",
     authentication: "plain",
-    user_name: "benabcd5779@gmail.com",
-    password: "ipxzgsbqqxhskmqn",
+    user_name: "",                 #要用時再加上去
+    password: "",
     enable_starttls_auto: true
   }
 end
