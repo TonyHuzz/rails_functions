@@ -6,7 +6,6 @@
 #
 default: &default
   adapter: mysql2
-  host: 127.0.0.1
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: 123456
@@ -24,4 +23,7 @@ test:
 
 production:
   adapter: mysql2
-  url: <%= ENV['DATABASE_URL'] %>
+  database: <%= ENV['DATABASE'] %>
+  hostname: <%= ENV['HOSTNAME'] %>
+  username: <%= ENV['USERNAME'] %>
+  password: <%= ENV['PASSWORD'] %>
