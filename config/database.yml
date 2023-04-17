@@ -22,4 +22,5 @@ test:
   database: RailsFuncTest
 
 production:
+  adapter: mysql2
   url: <%= ENV['DATABASE_URL'] %>
