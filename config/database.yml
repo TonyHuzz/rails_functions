@@ -22,5 +22,4 @@ test:
   database: RailsFuncTest
 
 production:
-  <<: *default
-  database: RailsFuncPro
+  url: <%= ENV['DATABASE_URL'] %>
