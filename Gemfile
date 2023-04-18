@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails'
 gem 'devise'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 gem 'omniauth-rails_csrf_protection'
 gem 'whenever'
 gem 'mysql2'
