@@ -56,6 +56,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-2.7.7-p221) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="date (v3.3.3, ruby-2.7.7-p221) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.9.2, ruby-2.7.7-p221) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.8.1, ruby-2.7.7-p221) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.8.1, ruby-2.7.7-p221) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="duktape (v2.7.0.0, ruby-2.7.7-p221) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.12.0, ruby-2.7.7-p221) [gem]" level="application" />
