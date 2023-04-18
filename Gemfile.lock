@@ -82,10 +82,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    dotenv (2.8.1)
-    dotenv-rails (2.8.1)
-      dotenv (= 2.8.1)
-      railties (>= 3.2)
     duktape (2.7.0.0)
     erubi (1.12.0)
     execjs (2.8.1)
@@ -269,7 +265,6 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
-  dotenv-rails
   duktape
   jbuilder (~> 2.5)
   mysql2
