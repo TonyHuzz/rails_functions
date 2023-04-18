@@ -68,19 +68,11 @@ Rails.application.configure do
   # email
   # ====================
   # for email
-  config.action_mailer.default_url_options = {protocol: 'http', host: 'localhost:3000' }
+  config.action_mailer.default_url_options = {protocol: 'https', host: 'https://rails-functions.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
 
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: "587",
-    domain: "gmail",
-    authentication: "plain",
-    user_name: "",                #要用再加上去
-    password: "",
-    enable_starttls_auto: true
-  }
+  config.action_mailer.smtp_settings = config_for(:email).symbolize_keys
 
 end
