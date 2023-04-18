@@ -269,7 +269,7 @@ Devise.setup do |config|
   config.sign_out_via = :delete
 
 
-  Dotenv.load
+  Dotenv::Railtie.load
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
