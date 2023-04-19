@@ -5,4 +5,12 @@ Rails.application.routes.draw do
   root "home#index"
 
   get "home/send_mail" => "home#send_mail"
+
+  resources :mpg do
+    collection do
+      get 'form'
+      post 'notify'
+      post 'return'
+    end
+  end
 end

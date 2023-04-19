@@ -22,8 +22,5 @@ test:
   database: RailsFuncTest
 
 production:
-  adapter: mysql2
-  database: <%= ENV['DATABASE'] %>
-  host: <%= ENV['HOST'] %>
-  username: <%= ENV['USERNAME'] %>
-  password: <%= ENV['PASSWORD'] %>
+  <<: *default
+  database: RailsFuncPro

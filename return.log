@@ -1,0 +1,5 @@
+# Logfile created on 2023-04-19 15:48:56 +0800 by logger.rb/v1.4.2
+I, [2023-04-19T15:48:56.286816 #22312]  INFO -- : hi
+I, [2023-04-19T15:49:08.637648 #22312]  INFO -- : hi
+I, [2023-04-19T15:49:45.820542 #22312]  INFO -- : hi
+I, [2023-04-19T15:50:05.575215 #22312]  INFO -- : <ActionController::Parameters {"a"=>"aaa", "controller"=>"mpg", "action"=>"return"} permitted: false>
