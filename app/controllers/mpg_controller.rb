@@ -13,7 +13,7 @@ class MpgController < ApplicationController
     hashKey = '0YInfrMwAlOxmtvzM6zFzmcqw5zKfAAa'
     hashIV = 'CAH4OMANQgPLuYXP'
 
-    data = "MerchantID=#{merchantID}&RespondType=#{respondType}&TimeStamp=#{timeStamp}&Version=#{version}&MerchantOrderNo=#{merchantOrderNo}&Amt=#{amt}&ItemDesc=#{itemDesc}"
+    data = "MerchantID=#{merchantID}&RespondType=#{respondType}&TimeStamp=#{timeStamp}&Version=#{version}&MerchantOrderNo=#{merchantOrderNo}&Amt=#{amt}&ItemDesc=#{itemDesc}&TradeLimit=300&CustomerURL=https://rails-functions.herokuapp.com/mpg/customer"
 
     data = addpadding(data)
     aes = encrypt_data(data, hashKey, hashIV, 'AES-256-CBC')

@@ -11,6 +11,7 @@ Rails.application.routes.draw do
       get 'form'
       post 'notify'
       post 'return'
+      post 'customer'
     end
   end
 end
