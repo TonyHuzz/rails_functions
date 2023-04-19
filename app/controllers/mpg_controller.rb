@@ -123,7 +123,11 @@ class MpgController < ApplicationController
     cipher.iv = iv
     packedData = [data.downcase].pack('H*')
     data = removedPadding(cipher.update(packedData))
-    return data + cipher.final
+    begin
+      return data + cipher.final
+    rescue
+      return data
+    end
   end
 
 end
